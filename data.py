@@ -1,6 +1,5 @@
 # Unofficial times:
 # DAN: (76,17) by C (no proof)
-# TOT: (73,xx) by C (no proof)
 # SPY: (42,22) by C (no proof)
 # LIE: (32,1) by C (no proof)
 
@@ -8,14 +7,14 @@ games = ["SCK", "STFD", "MHM", "TRT", "FIN", "SSH", "DOG", "CAR", "DDI", "SHA", 
         "CRE", "ICE", "CRY", "VEN", "HAU", "RAN", "WAC", "TOT", "SCKR", "SAW", "CAP", "ASH", "TMB", "DED",
         "GTH", "SPY", "MED", "LIE", "SEA"]
 
-times = [(4, 14), (11, 54), (10, 12),	# SCK STFD MHM
-         (25, 4), (17, 12), (56, 14),	# TRT FIN SSH
+times = [(4, 14), (11, 54), (9, 56),	# SCK STFD MHM
+         (24, 23), (17, 12), (56, 14),	# TRT FIN SSH
          (35, 1), (43, 52), (54, 3),	# DOG CAR DDI
          (57, 30), (44, 36), (53, 41),	# SHA CUR CLK
          (63, 15), (77, 51), (78, 14),	# TRN DAN CRE
          (58, 52), (59, 17), (79, 18),	# ICE CRY VEN
          (64, 27), (66, 22), (53, 56),	# HAU RAN WAC
-         (76, 36), (11, 57), (89, 13),	# TOT SCKR SAW
+         (69, 19), (11, 53), (89, 13),	# TOT SCKR SAW
          (53, 4), (52, 45), (35, 33),	# CAP ASH TMB
          (45, 50), (24, 52), (44, 15),	# DED GTH SPY
          (38, 44), (32, 23), (33, 50)]	# MED LIE SEA
@@ -24,13 +23,13 @@ sub1 = [guy[0] < 60 for guy in times]
 peeps = ['toburr', 'toburr', 'toburr', 'rpgg', 'rpgg', 'toburr', 'eca',
          'toburr', 'toburr', 'toburr', 'toburr', 'toburr',
          'corrine', 'nancyjilk', 'arglefumph', 'eca', 'yandema',
-         'yandema', 'karen', 'yandema', 'toburr', 'may',
-         'toburr', 'yandema', 'rpgg', 'bluetooth', 'yandema',
+         'yandema', 'karen', 'yandema', 'toburr', 'yandema',
+         'eca', 'yandema', 'rpgg', 'bluetooth', 'yandema',
          'rpgg', 'yandema', 'yandema', 'corrine', 'corrine',
          'arglefumph']
 countries = {'toburr': 'USA', 'yandema': 'USA', 'eca': 'USA', 'arglefumph': 'USA', 'lisa': 'CAN',
             'rpgg': 'CAN', 'nancyjilk': 'CAN', 'tkd': 'USA', 'corrine': 'USA', 'ttc': 'AUS',
-             'may': 'RUS', 'bluetooth': 'USA', 'karen': 'USA'} #don't actually know Karen's country
+             'may': 'RUS', 'bluetooth': 'USA', 'karen': 'USA'} #don't actually know Karen's country, but she's implied Minnesota
 
 print 'Game\tTime (min, sec)\tSub 1?\tRecord Holder'
 print '-------------------------------------'
